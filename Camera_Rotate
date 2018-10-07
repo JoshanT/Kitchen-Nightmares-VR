@@ -1,0 +1,6 @@
+	// Update is called once per frame
+	void Update () {
+        character.transform.Rotate(0, -30 * Time.deltaTime, 0);
+        character.transform.Rotate(0, -15 * Time.deltaTime, 0);
+	}
+}
